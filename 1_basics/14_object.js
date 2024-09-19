@@ -28,7 +28,7 @@ const nameValue = '안유진';
 const groupKey = 'group';
 const groupValue = '아이브';
 
-// key를 변수로 사용하려면 대괄호 사용
+// 변수로 key 이름을 사용하려면 대괄호 사용
 const yuJin2 = {
     [nameKey]: nameValue,
     [groupKey] : groupValue,

@@ -117,7 +117,7 @@ console.log(numbers);
 numbers.sort((a, b) => a > b ? -1 : 1);
 console.log(numbers);
 
-// map()
+// map() -> 각 요소에 콜백함수 적용
 console.log('-----------');
 console.log(iveMembers.map((x) => x));
 console.log(iveMembers.map((x) => `아이브 : ${x}`));
@@ -142,5 +142,5 @@ console.log(numbers.find((x) => x % 2 === 0));
 // findIndex() -> true인 첫번째 인덱스 return
 console.log(numbers.findIndex((x) => x % 2 === 0));
 
-// reduce(콜백함수 , 초기값)
+// reduce(콜백함수 , 초기값) -> 초기값이 p에 들어감. 콜백함수 적용 후 반환값이 p로, 그 다음 요소가 n에 들어가서 전 요소 순회
 console.log(numbers.reduce((p, n) => p + n, 0));

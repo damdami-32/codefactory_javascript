@@ -5,9 +5,9 @@ console.log('Hello');
 console.log('World');
 console.log('---------');
 
-// console.log(name);
-// var name = '코드팩토리';
-// console.log(name);
+console.log(name);
+var name = '코드팩토리';
+console.log(name);
 
 /**
  * Hoisting
@@ -28,5 +28,5 @@ console.log('---------');
  * var는 Hoistig 현상을 막아주지 못하는데 let과 const는 방지 가능
  */ 
 
-console.log(yujin);
-// let yujin = '안유진'; -> 이렇게 하면 yujin is not defind 발생
+console.log(yujin);     // -> yujin is not defined
+// let yujin = '안유진'; //-> Cannot access 'yujin' before initialization

@@ -61,6 +61,7 @@ const yuJin3 = {
     group: '아이브',
 };
 
+console.log('---------------');
 console.log(yuJin1 === yuJin2);     // true, 메모리 공간이 같음
 console.log(yuJin1 === yuJin3);     // false, 다른 메모리 공간에 선언됨
 console.log(yuJin2 === yuJin3);     // false
@@ -73,8 +74,9 @@ console.log(yuJin2 === yuJin3);     // false
 const yuJin4 = {
     ...yuJin3,
 };
-console.log(yuJin4);
 
+console.log('---------------');
+console.log(yuJin4);
 console.log(yuJin4 === yuJin3);
 
 // Spread 이후 값 추가 가능, 순서 중요
