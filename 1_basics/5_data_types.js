@@ -44,7 +44,7 @@ const ive = "'아이브' 안유진";
 console.log(ive);
 
 /** 
- * Template Literal
+ * Template Literal : 백틱 ``
  * 
  * Escaping Character
  * 1) newline -> \n

@@ -63,7 +63,7 @@ sample = true;
 console.log(+sample);   // true -> 1로 변환
 console.log(typeof +sample); // number 타입으로 변환됨
 
-sample = true;
+sample = false;
 console.log(+sample);   // false -> 0으로 변환
 console.log(typeof +sample); // number 타입으로 변환됨
 
